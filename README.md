@@ -2,6 +2,11 @@
 
 Script em Python para transcrever áudios e vídeos usando o modelo Whisper, com guia passo a passo para configuração e uso no Windows.
 
+## Como utilizar este projeto:
+O usuário pode clonar o repositório (git clone <URL>) ou baixar o ZIP manualmente.
+Em seguida, seguir o README: nele estão os pré-requisitos (Python ≥3.10 e FFmpeg), o passo a passo para instalar e colocar o FFmpeg no PATH, além dos comandos pip necessários para instalar Whisper e Torch dentro de um ambiente virtual se desejado.
+Por fim, executar o script: depois que o FFmpeg e as dependências estão instalados, basta chamar python transcrever.py CAMINHO/DO/ARQUIVO, o que dispara a validação do arquivo, chama o Whisper e grava um .txt UTF-8 ao lado do original.
+
 ## Pré-requisitos
 
 - Python 3.10 ou superior instalado.

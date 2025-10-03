@@ -58,29 +58,9 @@ Depois de extrair a pasta `ffmpeg` para `C:\ffmpeg`, é preciso informar ao Wind
    pip install torch
    ```
 
-Recomenda-se executar esses comandos dentro de um ambiente virtual (`python -m venv .venv` e `.\.venv\Scripts\activate`).
-
 ## Uso
 
 Após instalar o FFmpeg e as dependências:
-
-```bash
-python transcrever.py CAMINHO/DO/ARQUIVO
-```
-
-O script validará o arquivo de entrada, executará a transcrição com Whisper e salvará o resultado em um arquivo `.txt` com codificação UTF-8 ao lado do arquivo original.
-
-Para mais detalhes sobre opções de linha de comando, execute:
-
-```bash
-python transcrever.py --help
-```
-## Requisitos
-
-- Python 3.9 ou superior.
-- Dependências instaladas com `pip install -r requirements.txt` ou diretamente com `pip install openai-whisper`. O pacote `ffmpeg` precisa estar disponível no sistema para que o Whisper processe os formatos de áudio e vídeo suportados.
-
-## Uso
 
 1. Salve o arquivo de áudio ou vídeo em um dos formatos suportados (`.mp3`, `.mp4`, `.m4a`, `.wav`, `.flac`, `.ogg`, `.webm`, `.wma`, `.aac`, `.mov`, `.mkv`).
 2. Execute o script `transcrever.py`, informando o caminho do arquivo a ser processado:

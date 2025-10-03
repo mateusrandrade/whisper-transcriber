@@ -7,6 +7,12 @@ Script em Python para transcrever áudios e vídeos usando o modelo Whisper, com
 - Python 3.10 ou superior instalado.
 - FFmpeg disponível no sistema.
 
+### Como Instalar o Python
+1. Abra o navegador e acesse: [https://www.python.org/downloads/windows/](https://www.python.org/downloads/windows/).
+2. Clique em Download Python (última versão).
+3. Quando abrir a instalação, marque a opção “Add Python to PATH”.
+4. Clique em Install Now e aguarde até terminar.
+
 ### Como instalar o FFmpeg (Windows)
 
 1. Acesse o site oficial: <https://ffmpeg.org/download.html>.
